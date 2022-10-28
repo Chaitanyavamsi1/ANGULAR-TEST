@@ -1,0 +1,8 @@
+.container{width:400px;border:1px solid red;
+background-color: black;color:white;
+height:300px;
+position: absolute;top:30%;left:30%;text-align:center;
+}
+#conttt1 input{
+    margin-top:50px
+}

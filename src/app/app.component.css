@@ -1,0 +1,29 @@
+
+input{
+    float:left;margin-top:7px;width: 300px;height: 30px;border:1px solid white;margin-left:5px;
+}
+
+#logo{
+    margin-left:300px;margin-top: 10px;
+}
+#logo img{
+    transition:transform 2s;
+}
+#logo img:hover{
+    transform: scale(1.5);
+}
+header{
+    background-color: black;height:40px;margin:0;padding:0;
+}
+#loginp input{
+    float:right;margin-right:30px;width:100px;margin-top:7px;background-color: black;border:1px solid white;color:white;height:30px;
+}
+#loginp input:focus{
+    border-color: red;
+}
+#btn1 button{
+    float:left;margin-top:10px;margin-left:10px;background-color: black;border:1px solid white;color:white;height: 20px;width:60px
+}
+#btn1 button:focus{
+    border-color:red;color:blue
+}
