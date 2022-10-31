@@ -6,19 +6,21 @@ import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
 import { IronmanComponent } from './ironman/ironman.component';
 import { CaptainComponent } from './captain/captain.component';
-
+import { NotificationsService } from './notifications.service';
+import {HttpClientModule} from '@angular/common/http'
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
     IronmanComponent,
-    CaptainComponent
+    CaptainComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
-  providers: [],
+  providers: [NotificationsService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

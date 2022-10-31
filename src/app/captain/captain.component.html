@@ -8,5 +8,12 @@
     
     Captain America has led the Ultimates against the Brotherhood of Mutants, the X-Men, and Norman Osborn‘s group of failed attempts to reproduce the super-soldier process, known as the “Six”. On a Tunguska expedition he learned of a Soviet super-soldier project and fought a man who claimed to be his Russian counterpart. When his former teammate Thor seemingly betrayed the Ultimates, Steve angrily confronted Thor, and later led the team in capturing him. Recently, Captain America was instrumental in the Ultimates forcibly stripping a Middle Eastern country of its nuclear arsenal.
     </p>
+    <h2>Movies</h2>
     </div>
+    <div class="mov1">
+        <div class="mov2" *ngFor="let movies of data">
+            <div class="mov3"><img [src]="movies.cover"></div>
+            <div class="mov4">{{movies.name}}</div>
+        </div>
+        </div>
     

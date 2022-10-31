@@ -16,10 +16,10 @@ document:any
   }
  login1(){
   if(this.document.getElementById('name').value=='vamsi'&&this.document.getElementById('password').value=='12345'){
-   alert('Hello Vamsi')
+   alert('Login Successful')
    //this.router.navigate(['/app'])
 }else{
-  //   alert('You Need To Login')
+  alert('You Need To Login')
 }}
   }
 

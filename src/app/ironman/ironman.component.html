@@ -9,3 +9,10 @@ Recently, Stark Industries scored its biggest victory when it secured the Sentin
 Tony has been secretly working on a special project beneath Stark Industries -- a brand new suit of hi-tech armor he plans to use as his new Robo Death Match suit.
 </p>
 </div>
+<h2>Movies</h2>
+<div class="mov1">
+    <div class="mov2" *ngFor="let movies of data">
+        <div class="mov3"><img [src]="movies.cover"></div>
+        <div class="mov4">{{movies.name}}</div>
+    </div>
+    </div>
