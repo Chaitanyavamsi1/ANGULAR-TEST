@@ -1,0 +1,48 @@
+[
+    {
+      "id": 17,
+      "name": "Black Panther: Wakanda Forever",
+      "cover": "https://m.media-amazon.com/images/M/MV5BNTM4NjIxNmEtYWE5NS00NDczLTkyNWQtYThhNmQyZGQzMjM0XkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_FMjpg_UX1000_.jpg",
+      "duration" : 3.45,
+      "reviews": [
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Ant-Man and the Wasp: Quantumania",
+      "cover": "https://i.pinimg.com/236x/e7/97/43/e797434899d7286b5ef0ae6482d3bf14.jpg",
+      "duration": 2.53,
+      "reviews": [
+      ]
+    },
+    {
+      "id": 19,
+      "name": "Thor: Love and Thunder",
+      "cover":"https://terrigen-cdn-dev.marvel.com/content/prod/1x/bigsalad_genavailposter_pay1_presunrise_v3_lg.jpg",
+      "duration": 3.12,
+      "reviews": [
+      ]
+    },
+    {
+      "id": 20,
+      "name": "Doctor Strange in the Multiverse of Madness",
+      "cover": "https://upload.wikimedia.org/wikipedia/en/1/17/Doctor_Strange_in_the_Multiverse_of_Madness_poster.jpg",
+      "duration": 4.45,
+      "reviews": [
+        {
+          "author": "Albus Dumbledore",
+          "published_on": "2021-10-13 11:27:39",
+          "review": "Awesome movie!",
+          "duration": 4.5
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "name": "Spider-Man: No Way Home",
+      "cover": "https://assets-in.bmscdn.com/iedb/movies/images/extra/vertical_logo/mobile/thumbnail/xxlarge/spider-man-no-way-home-et00310790-1662017800.jpg",
+      "duration": 4.12,
+      "reviews": [
+      ]
+    }
+  ]
